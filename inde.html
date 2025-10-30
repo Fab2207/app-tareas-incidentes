@@ -3,43 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>APLICACION DE TAREAS </title>
+  <title>Aplicación de Tareas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-    header {
-      background-color: #007acc;
-      color: white;
-      padding: 1rem;
-      text-align: center;
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+      line-height: 1.6;
     }
+
+    header {
+      background-color: #005f99;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
     main {
       padding: 2rem;
+      max-width: 800px;
+      margin: auto;
     }
+
+    main p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
     footer {
-      background-color: #333;
-      color: white;
+      background-color: #222;
+      color: #ccc;
       text-align: center;
       padding: 1rem;
-      position: fixed;
+      font-size: 0.9rem;
+      position: relative;
       bottom: 0;
       width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      main {
+        padding: 1rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenido a Mi Página</h1>
+    <h1>Aplicación de Tareas</h1>
+    <p>Organiza tus pendientes de forma eficiente</p>
   </header>
   <main>
-    <p>¡Hola! Esta es una página web de ejemplo creada con HTML y un poco de CSS.</p>
+    <p>Bienvenido a tu aplicación de gestión de tareas. Aquí podrás crear, editar y seguir el progreso de tus actividades diarias.</p>
+    <p>Esta interfaz está diseñada para ser clara, responsiva y fácil de usar en cualquier dispositivo.</p>
   </main>
   <footer>
-    <p>&copy; 2025 Mi Nombre</p>
+    <p>&copy; 2026 Desarrollado por TuNombre | Todos los derechos reservados</p>
   </footer>
 </body>
 </html>
